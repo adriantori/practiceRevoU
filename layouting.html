@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RevoU Practice</title>
+    <link rel="stylesheet" href="header.css">
+    <style>
+        .content {
+            flex-direction: row;
+            display: flex;
+        }
+        
+        .content>div {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+        
+        .tablePerson {
+            border: 10px solid black;
+        }
+        
+        footer>p {
+            text-align: right;
+            justify-content: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar-->
+    <nav class="container">
+        <div class="home">Home</div>
+        <div class="search">Search</div>
+        <div class="Logout">Logout</div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Header -->
+    <header>
+        <h1>Form Belajar</h1>
+        <p>Ini adalah website latihan pertama</p>
+    </header>
+    <!-- Header End-->
+
+    <main class="content">
+        <div style="flex: 1;">
+            <h2>Form</h2>
+        </div>
+        <!-- Table -->
+        <div style="flex: 2;">
+            <table class="tablePerson">
+                <tr>
+                    <th>Nama</th>
+                    <th>Tanggal Lahir</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Pesan</th>
+                    <th>Profil</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>Tedjo</td>
+                    <td>12 April 2023</td>
+                    <td>Laki-laki</td>
+                    <td>Semangat terus bg</td>
+                    <td><a href="#">Klik disini</a></td>
+                    <td>img</td>
+                </tr>
+            </table>
+            <!-- Table End -->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>RevoU 2023</p>
+    </footer>
+    <!-- Footer End -->
+</body>
+
+</html>
